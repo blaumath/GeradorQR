@@ -1,0 +1,23 @@
+/* celular */
+@media screen and (max-width: 480px) {
+  .container {
+    width: auto; /* Use auto em vez de um valor fixo para permitir que o contêiner se ajuste ao tamanho da tela */
+    padding: 1em;
+  }
+}
+
+/* tablet */
+@media screen and (min-width:481px) and (max-width:1024px) {
+  .container {
+    width: auto; /* Use auto em vez de um valor fixo para permitir que o contêiner se ajuste ao tamanho da tela */
+    padding: 1em;
+  }
+}
+
+/* desktop */
+@media screen and (min-width:1025px) {
+  .container {
+    width: auto; /* Use auto em vez de um valor fixo para permitir que o contêiner se ajuste ao tamanho da tela */
+    padding: 1em;
+  }
+}
